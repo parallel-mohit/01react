@@ -1,0 +1,835 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+table :last-child {
+    border-bottom: none;
+}
+
+.main {
+    min-height: 100vh;
+    /* width: 100vw; */
+}
+
+.header {
+    /* max-width: 100%; */
+    height: 70px;
+    display: flex;
+    background-color: white;
+
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.headerDiv1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.headerDiv2 {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.qaImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qaImg {
+    /* */
+    width: 70px;
+    height: 40px;
+
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchBar {
+    height: 40px;
+    max-width: 250px;
+    border: 2px solid #9E9E9E;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-top: 10;
+    padding-bottom: 10;
+
+}
+
+.imgIcon {
+    margin-left: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.dashboardBox {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 251px;
+    width: '100%';
+    background: transparent linear-gradient(180deg, #4FC3F7 0%, #0081FF 100%) 0% 0% no-repeat padding-box;
+    ;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+h2 {
+
+    margin-top: 42px;
+    
+
+    text-align: left;
+    font: normal normal bold 22px/30px Open Sans;
+    letter-spacing: 2.62px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+h3 {
+    
+    margin-top: 10px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 1.43px;
+    color: #F2FBFF;
+    text-transform: uppercase;
+    opacity: 1
+}
+
+.boxDiv {
+    position: relative;
+    top: -120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 29px;
+    justify-content: space-between;
+}
+
+.box {
+    width: 428px;
+    height: 340px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18.5px;
+    text-align: left;
+    font: normal normal bold 20px/22px Lato;
+    letter-spacing: 0.63px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.boxHeading {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBoxHeading {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.boxHeading p {
+    text-align: left;
+    font: normal normal 600 14px/22px Open Sans;
+    letter-spacing: 0.44px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.boxHeading span {
+    text-align: left;
+    font: normal normal 600 14px/22px Open Sans;
+    letter-spacing: 0.44px;
+    color: #FF2107;
+    opacity: 1;
+}
+
+.projectMainBox {
+    margin-top: 41.5px;
+    margin-left: 20px;
+    padding-right: 34px;
+    overflow: auto;
+    height: 237px;
+}
+
+.Project {
+    display: flex;
+    /* overflow:scroll; */
+    justify-content: space-between;
+}
+
+.date {
+    text-align: left;
+    font: normal normal 600 13px/22px Open Sans;
+    letter-spacing: 0.41px;
+    color: #F20810;
+}
+
+.btnBox {
+    margin-top: 8px;
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+}
+
+.btn {
+    padding-top: 2px;
+    border-bottom: 2px;
+    max-height: 21px;
+    max-width: 60px;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnText {
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+#criticalBtn {
+    background: #FFCCCC 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+#highBtn {
+    background: #FF5A5A 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    margin-left: 6px;
+
+}
+
+#majorBtn {
+    background: #FFD278 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+    margin-top: 7px;
+
+}
+
+/* .borderLine{
+    margin-left: 20px;
+    margin-right: 34px;
+    border: 0.01rem ;
+    border-style: solid;
+    margin-top: 23.5px;
+    margin-bottom: 30.5px;
+} */
+hr {
+
+    margin-top: 23.5px;
+    margin-bottom: 30.5px;
+}
+
+.BugStatusBox {
+    margin-top: 41.5px;
+    margin-left: 20px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.bugBox {
+
+
+    display: flex;
+    /* background-color: red; */
+
+
+}
+
+.circleBug {
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    border-width: 4px;
+    border-color: #272D3B33;
+    border-style: solid;
+    border-top-color: #0081FF;
+
+    opacity: 0.88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ProjectStatusMainBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    margin-right: 22px;
+    margin-top: 18.5px;
+    row-gap: 10px;
+}
+
+.ProjectStatusBox {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DEDFE1;
+    border-radius: 5px;
+    opacity: 1;
+    width: 388px;
+    height: 80px;
+
+
+}
+
+.ProjectStatusInternalBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ProjectStatusInternalBox p {
+    text-align: left;
+    font: normal normal 600 14px/22px Open Sans;
+    letter-spacing: 0.44px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.line {
+    width: 349px;
+    height: 9px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1
+}
+
+.internalLine {
+    width: 90px;
+    height: 9px;
+    background: #03A9F4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.RecentProjectBox {
+    overflow-x: scroll;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 92px;
+    height: 584px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 6px;
+    opacity: 1;
+    padding-top: 21px;
+}
+
+.ManageYourProject {
+    position: relative;
+
+    top: -60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 92px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #272D3B33;
+    border-radius: 6px;
+    opacity: 1;
+    padding-top: 21px;
+    overflow-x: scroll;
+}
+
+.abc {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.abc input {
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F1F1F3;
+    border-radius: 3px;
+    opacity: 1;
+    padding-left: 5px;
+}
+
+.btnProject {
+    width: 77px;
+    height: 30px;
+    background: #F4F5FB 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    margin-left: 20px;
+    text-align: center;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+    opacity: 1;
+}
+
+
+.overViewMain {
+    min-height: 815px;
+}
+
+.footer {
+
+    /* position: relative;
+    bottom: 0; */
+    margin-top: 20px;
+    margin-top: auto;
+    background-color: #494949;
+    min-height: 37px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+
+    margin-top: 33px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+
+    width: 100%;
+
+
+}
+
+tr {
+    border-bottom: 1px solid #BDBDBD;
+
+    padding-left: 20px;
+
+
+}
+
+th {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+td {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    max-width: 300px;
+}
+
+.tdTextDashb {
+    /* background-color: red; */
+
+    text-align: center;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #272D3B;
+    opacity: 1;
+
+}
+
+.lorem p {
+    text-align: left;
+    font: normal normal normal 12px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+
+
+}
+
+.loremText {
+    text-align: left;
+    font: normal normal 600 14px/17px Open Sans;
+    letter-spacing: 0px;
+    color: #272D3B;
+}
+
+.viewAllBtn {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #03A9F4;
+    border-radius: 20px;
+    opacity: 1;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rout {
+
+    display: flex;
+    /* height: 10px; */
+
+}
+
+
+.rout p {
+    /* */
+    text-align: left;
+    font: normal normal bold 14px/19px Open Sans;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+@media screen and (max-width:450px) {
+    .rout {
+        overflow-x: scroll;
+    }
+.OverViewBox{
+    margin: 20px;
+}
+    .performanceBtn {
+        /* width: 100px; */
+       
+
+    }
+    .boxDiv{
+        flex-direction: column;
+        column-gap: 40px;
+    }
+
+    .performanceBtn p {
+        font-size: smaller;
+        min-inline-size: 150px;
+    }
+
+    .headerProjectText {
+        font-size: small;
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2 {
+       
+        font: normal normal bold 18px Open Sans;
+        letter-spacing: 1.5px;
+    }
+h3{
+    font: normal normal bold 12px/17px Open Sans;
+    letter-spacing: 1px;
+    
+}
+
+    /* .rout p{
+        font: normal normal bold 10px/14px Open Sans;
+    } */
+}
+
+
+
+.lineBox {
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 30px;
+}
+
+.bigLine {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.newProjectBtn {
+    width: 159px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+
+}
+
+
+.newProjectText {
+    text-align: left;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #03A9F4;
+    opacity: 1
+}
+
+.performanceBtn {
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1
+}
+
+.performanceBtn p {
+    text-align: left;
+    font: normal normal 600 16px Open Sans;
+    letter-spacing: 0px;
+    color: #27A2F8;
+    opacity: 1;
+}
+
+.OverViewBox {
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 20px;
+    /* padding: 20px; */
+    /* min-height: 340px; */
+    overflow-x: scroll;
+
+}
+
+.overviewBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 36px;
+    background: #03A9F4 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.overviewCancelBtn {
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #03A9F4;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.txtArea {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 400px;
+    /* padding-top: 20px; */
+
+}
+
+.ReleaseBox {
+    margin-top: 20px;
+}
+
+.menuLogo {
+    width: 20px;
+    height: 20px;
+}
+
+h5 {
+    font-size: 14px;
+    text-align: left;
+    font: normal normal bold 14px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.ReleaseDetailsBox {
+    margin: 20px
+}
+
+.vr {
+    width: 1px;
+    height: 550px;
+    background-color: black;
+}
+
+.ReleaseTableBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 24px;
+    width: 35%;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.h6 {
+
+    text-align: left;
+    font: normal normal bold 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #212121;
+    opacity: 1;
+    font-size: 18px;
+}
+
+#releaseDetailTable {
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    margin-top: 20px;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+}
+
+#releaseDetailTable tr {
+    border-bottom: 1px solid black;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+}
+
+.openSansSemi16 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.OpenSansReg12 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.headerProjectText {
+    text-align: left;
+    font: normal normal bold 14px/19px Open Sans;
+    letter-spacing: 1.4px;
+    color: #03A9F4;
+    opacity: 1;
+    margin-left: 10px;
+
+}
+
+
+.projectNameHeadingDashb {
+    text-align: left;
+    font: normal normal 600 15px/22px Open Sans;
+    letter-spacing: 0.47px;
+    color: #272D3B;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.actionReqTextDashb {
+    text-align: left;
+    font: normal normal normal 14px/22px Open Sans;
+    letter-spacing: 0.44px;
+    color: #999999;
+}
+
+.dueDateTextDashb {
+    text-align: left;
+    font: normal normal normal 13px/22px Open Sans;
+    letter-spacing: 0.41px;
+    color: #999999;
+    margin-top: 20px;
+}
+
+.circleBugRightText {
+    text-align: left;
+    font: normal normal normal 14px/22px Open Sans;
+    letter-spacing: 0.44px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.circleBugRightNumberText {
+    text-align: left;
+    font: normal normal 600 15px/22px Open Sans;
+    letter-spacing: 0.47px;
+    color: #03A9F4;
+    opacity: 1;
+}
+
+.searchTextDashb {
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #CECECE;
+    opacity: 1;
+}
+
+.tdOpenSans1419 {
+    text-align: left;
+    font: normal normal bold 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #272D3B;
+    opacity: 1;
+}
+
+.tdLato1417 {
+    text-align: left;
+    font: normal normal bold 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #272D3B;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.roleBox{
+    display: flex;
+    justify-content: space-between;
+}
